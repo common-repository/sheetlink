@@ -1,0 +1,23 @@
+{
+    "name": "rao/spreadsheetintegration",
+    "description": "Spreadsheet Integration for Wordpress",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Himani Lotia",
+            "email": "himani@raoinformationtechnology.com"
+        }
+    ],
+    "require": {
+        "tareq1988/wp-eloquent": "dev-master",
+        "firebase/php-jwt": "*"
+    },
+    "autoload": {
+        "psr-4": {"RAOGSI_COMPOSER\\":"src"}
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
